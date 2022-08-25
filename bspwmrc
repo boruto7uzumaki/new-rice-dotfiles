@@ -21,11 +21,6 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-wal -r
+feh --bg-scale wallpaper.png
 polybar
 picom --experimental-backends -b
-
-bspc rule -a cool-retro-term state=floating center=true rectangle    =1300x700+0+0
-cool-retro-term -e sh -c "ez.sh && sleep 2"
-bspc rule -r cool-retro-term
-$SHELL
